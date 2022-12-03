@@ -1,0 +1,18 @@
+<template>
+
+    <lightning-card title="Parent" icon-name="custom:custom12">
+       <div class="box">
+        <div>
+        <lightning-button label="Click here for block 1" onclick={handleClick1} variant={cName}></lightning-button><br>
+        <lightning-button label="Click here for block 2" onclick={handleClick2} variant={cName2}></lightning-button><br>
+        <lightning-button label="Click here for block 3" onclick={handleClick3} variant={cName3}></lightning-button><br>
+        <lightning-button label="Click here for block 4" onclick={handleClick4} variant={cName4}></lightning-button>
+            
+        </div>
+        <div class="column2">
+            <c-child-p-o-c onclose={cHandleOne}  onclose2={cHandleTwo} onclose3={cHandleThree} onclose4={cHandleFour}></c-child-p-o-c>
+        </div>
+    </div>
+    </lightning-card>
+    
+</template>

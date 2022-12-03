@@ -1,0 +1,21 @@
+.box {
+    width:80%;
+    display:box;
+  
+    -moz-box-orient:horizontal;
+    display:-webkit-box;
+    display:box;
+    box-orient:horizontal;
+}
+
+.box .column2 {
+    padding-left: 100px;
+    -webkit-box-flex:1.0;
+    box-flex:1.0;
+   
+ 
+    width: 50%; 
+    display: block; 
+
+}
+
